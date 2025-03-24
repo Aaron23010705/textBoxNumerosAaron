@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Textbox  from './components/Texto'
 import Calculadora from './components/calculadora/calculadora'
+import Todo from './components/toDo/toDo'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <h1>Hook UseState</h1>
 
     <Calculadora/>
+    <Todo/>
 
     </>
   )
