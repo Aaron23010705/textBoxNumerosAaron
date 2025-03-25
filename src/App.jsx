@@ -5,6 +5,7 @@ import './App.css'
 import Textbox  from './components/Texto'
 import Calculadora from './components/calculadora/calculadora'
 import Todo from './components/toDo/toDo'
+import Registro from './components/Registro/Registro'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
     <Calculadora/>
     <Todo/>
+    <Registro/>
 
     </>
   )
